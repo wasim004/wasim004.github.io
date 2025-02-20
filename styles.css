@@ -36,3 +36,14 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
+.centered-list {
+    list-style-position: inside;
+    text-align: center;
+    padding: 0;
+}
+.centered-list li {
+    display: list-item;
+    margin: 5px 0;
+}
+
