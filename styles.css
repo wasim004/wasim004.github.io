@@ -38,12 +38,14 @@ footer {
 }
 
 .centered-list {
-    list-style-position: inside;
-    text-align: center;
+    list-style-type: disc; /* Ensures bullets appear */
+    list-style-position: inside; /* Keeps bullets close to text */
+    text-align: center; /* Centers the text */
     padding: 0;
+    display: inline-block; /* Ensures list stays centered */
 }
 .centered-list li {
-    display: list-item;
+    text-align: left; /* Aligns text properly within the centered list */
     margin: 5px 0;
 }
 
