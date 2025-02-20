@@ -49,3 +49,14 @@ footer {
     margin: 5px 0;
 }
 
+.centered-skills {
+    display: flex;
+    justify-content: center; /* Centers the entire list block */
+    text-align: left; /* Aligns text to the left inside the centered block */
+}
+
+.centered-skills ul {
+    list-style-type: disc; /* Keeps bullet points */
+    padding-left: 20px; /* Adjusts bullet spacing */
+}
+
